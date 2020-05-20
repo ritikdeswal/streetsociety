@@ -3,21 +3,10 @@
 	padding: 0px;
 
 }
-@font-face{
-	font-family: "multi";
-	src:url("Muli-Black.ttf");
-}
-@font-face{
-	font-family: "ubuntu";
-	src:url("Ubuntu-Light.ttf");
-}
-@font-face{
-	font-family: "titanium";
-	src:url("TitilliumWeb-Black.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&family=Lato&display=swap');
 body{
-	background-image: url("camaro.jpg");
-	background-size: 100% 108vh;
+	background-image: url("camaro-min.jpg");
+	background-size: 100% ;
 }
 
 nav{
@@ -26,8 +15,8 @@ nav{
 	background-color:rgba(200,200,200,1);
 }
 
-nav p{
-	font-family: "multi";
+nav p{/*street society title*/
+	font-family: 'Heebo', sans-serif;
 	font-size: 40px;
 	padding-left: 15px;
 	text-transform: uppercase;
@@ -40,7 +29,8 @@ nav p{
 	color: rgba(255,19,90,1);
 }
 nav ul{
-	float: left;
+	
+	float:right;
 	padding-right: 20px;
 	padding-left: 30px;
 }
@@ -50,8 +40,8 @@ nav ul li{
 	list-style: none;
 	position: relative;
 }
-nav ul li a{
-	font-family: "Ubuntu";
+nav ul li a{/*navbar options*/
+	font-family:'Lato', sans-serif;
 	font-weight: bold;
 	font-size: 18px;
 	padding: 18px 15px;
@@ -92,7 +82,7 @@ background-color: rgba(180,180,180,1);
 }
 
 #para{
-	font-family: "titanium";
+	font-family:'Lato', sans-serif ;
 	font-size: 80px;
 	color: rgba(255,255,255,0.5);
 	text-transform: capitalize;
